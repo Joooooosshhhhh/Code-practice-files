@@ -1,0 +1,248 @@
+.request-now {
+    background-color: black;
+    color: white;
+    height: 50px;
+    border-style: none;
+    width: 130px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: 0.15s;
+ }
+ .request-now:hover {
+    opacity: 0.8;
+
+ }
+
+ .Add-to-cart {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    width: 200px;
+    height: 40px;
+    border-style: none;
+    font-size: 18;
+    border-radius: 100px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.15s;
+ }
+.Add-to-cart:hover {
+    background-color: rgb(226, 192, 18);
+}
+
+
+ .Sign-up {
+    background-color: rgb(43, 164, 79);
+    color: white;
+    width: 120px;
+    height: 50px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 18;
+    border-radius: 10px; 
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.15s;
+    
+}   
+.Sign-up:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.Get-started {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.15s;
+}
+.Get-started:hover {
+    background-color:rgb(105, 71, 156);
+}
+
+.download {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    height: 50px;
+    width: 150px;
+    border-color: rgb(108, 117, 125);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16;
+    cursor: pointer;
+    margin-right: 10px;
+    border-style: solid;
+    transition: 0.15s;
+} 
+.download:hover {
+    background-color:rgb(108, 117, 125);
+    color: white;
+}
+
+.Apply-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    height: 50px;
+    width: 250px;
+    font-size: 16;
+    border-style: none;
+    border-radius: 125px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.Apply-button:hover {
+    background-color: rgb(8, 79, 151);
+}
+
+.Save {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    height: 50px;
+    width: 100px;
+    font-size: 16;
+    border-style: solid;
+    border-color: rgb(10, 102, 194);
+    font-weight: bold;
+    border-radius: 50px;
+    margin-left: 15px;
+    transition: background-color 0.15s, border-width 0.15s;
+}
+.Save:hover {
+    border-width: 2px;
+    background-color: rgba(10, 102, 194, 0.2);
+    transition: 0.15s;
+}
+
+.back-to-amazon {
+    color: rgb(0, 113, 133);
+    font-family: 'Times New Roman';
+    font-size: 40;
+    margin: 50px;
+}
+.back-to-amazon:hover {
+    color: rgb(201, 132, 5);
+}
+
+.nike {
+    font-size: 40;
+    margin: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+
+}
+
+.in_stock {
+    color: rgb(0, 113, 0);
+    font-size: 30;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.AddToCart {
+    background-color: rgb(255, 216, 20);
+    height: 40px;
+    width: 185px;
+    border-style: none;
+    border-radius: 75px;
+    cursor: pointer;
+    font-size: 20;  
+}
+.AddToCart:active {
+    opacity: 0.5;
+}
+
+.BuyNow {
+    background-color: rgb(255, 164, 28);
+    height: 40px;
+    width: 185px;
+    border-style: none;
+    border-radius: 75px;
+    cursor: pointer;
+    font-size: 20;
+}
+.BuyNow:hover {
+    background-color: rgb(221, 142, 24);
+}
+.BuyNow:active {
+    opacity: 0.5;
+}
+
+
+.back-button {
+      margin-right: 8px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 16px;
+}
+  
+ .search-result {
+      margin-left: 4px;
+      margin-right: 4px;
+      font-size: 18px;
+    }
+  
+    .next-button {
+      margin-left: 8px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 16px;
+    }
+
+  
+  
+
+.stretch {
+    background-color: green;
+    color: white;
+    margin: 30px;
+    transition: padding-left 1s, 
+    padding-right 1s,
+    padding-top-1s, 
+    padding-bottom 1s;
+    border-style: none;
+    padding-left:20px ;
+    padding-right:20px ;
+    padding-bottom:10px ;
+    padding-top:10px ;
+    cursor: pointer;
+
+  
+}
+.stretch:hover {
+    padding-left:16px ;
+    padding-right:36px ;
+    padding-bottom:36px ;
+    padding-top:16px ;
+}
+ 
+
+
+
+
+
+
+.shadow {
+    background-color: green;
+    color: white;
+    margin: 20px;
+    border-style: none;
+    padding-left:10px ;
+    padding-right:10px ;
+    padding-bottom:10px ;
+    padding-top:10px ;
+    cursor: pointer;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+}
+
+.shadow:active {
+   margin-top: 3px;
+   margin-left: 18px;
+   box-shadow: none;
+}

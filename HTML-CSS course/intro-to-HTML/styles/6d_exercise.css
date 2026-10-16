@@ -1,0 +1,21 @@
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.model {
+    font-size: 50px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.order-online {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.link:hover {
+cursor: pointer;
+}

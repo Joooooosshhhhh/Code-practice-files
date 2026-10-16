@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-family: sans-serif;
+}
+.sidebar {
+    height:100vh;
+    border: 2px solid white;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-container {
+    padding: 0;
+    margin: 0;
+    border: solid 5px blue;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    border: 2px solid pink;
+    display: inline-flex;
+   
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    border: 10px solid green;
+    width: 100%;
+    justify-content: center;
+    padding: 22px 0 0;
+}
+
+.main-content {
+    width: 630px;
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.suggest-for-you {
+    width: 383px;
+    border: 2px solid blue;
+    height: 50vh;
+    display: flex;
+}
+
+.story-list {
+    height: 101px;
+    width: 100%;
+    border: 2px solid blue;
+    display: flex;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    border: 2px solid rgb(255, 0, 234);
+    display: flex;
+}

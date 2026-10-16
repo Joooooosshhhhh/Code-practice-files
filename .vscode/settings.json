@@ -1,0 +1,5 @@
+{
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Tokyo Night",
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}

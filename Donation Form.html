@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://127.0.0.1:5500/billing%20form/codenijing.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Donation Form</title>
+    <!--<link rel="stylesheet" href="billingform.css">-->
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(9, 9, 95);
+}
+
+.main_body {
+    background-image: url(sunrise-with-fog-water-surrounded-by-trees-netherlands.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 680px;
+    width: 700px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: space-evenly;*/
+    background-color:rgba(0, 0, 0, 0.404);
+    backdrop-filter: blur(10px);
+}
+
+.h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(226, 186, 56);
+    width: 500px;
+    padding: 20px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.name_container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 100px;
+    align-items: center;
+}
+
+.name {
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+    width: 100px;
+
+}
+
+.input_name {
+    width: 200px;
+    height: 25px;
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 18px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+}
+
+.phone {
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.p_number {
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+    width: 270px;
+    height: 25px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 18px;
+}
+
+.donation {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.donation-text {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.donation-placeholder {
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+    width: 570px;
+    height: 25px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 18px;
+}
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discard_button {
+    height: 65px;
+    width: 200px;
+    color: white;
+    background-color: rgb(218, 57, 28);
+    border-style: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 35px;  
+    transition: 0.3s; 
+}
+
+.confirm_button {
+    height: 65px;
+    width: 200px;
+    color: white;
+    background-color: rgb(34, 139, 34);
+    border-style: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;   
+    transition: 0.3s;
+}
+
+.confirm_button:hover {
+    background-color: white;
+    color: rgb(34, 139, 34);
+}
+
+.discard_button:hover {
+    background-color: white;
+    color: rgb(218, 57, 28);
+}
+
+.p_number,
+.donation-placeholder {
+    color: black;
+    padding-left: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="main_body">
+        <div class="container">
+            <header class="h1">Donation Form</header>
+
+            <div class="name_container">
+                <div class="name">Full Name:</div>
+                <input class="input_name" type="text" placeholder="First Name">
+                <input class="input_name" type="text" placeholder="last name">
+            </div>
+
+            <div class="contacts">
+                <div class="phone_number">
+                    <div class="phone">Phone Number</div>
+                    <input class="p_number" type="text" placeholder="Phone number">   
+                </div>
+                <div class="phone_number">
+                    <div class="phone">Email Address </div>
+                    <input class="p_number" type="text" placeholder="Email Address">   
+                </div>
+            </div>
+
+            <div class="donation">
+                <div class="donation-container">
+                    <div class="donation-text"> How much do you wish to donate?</div>
+                    <input class="donation-placeholder" type="text" placeholder="Donation Amount">   
+                </div>
+            </div>
+
+            <div class="donation">
+                <div class="donation-container">
+                    <div class="donation-text"> Credit Card</div>
+                    <input class="donation-placeholder" type="text" placeholder="Card Number #">   
+                </div>
+            </div>
+
+            <div class="donation">
+                <div class="donation-container">
+                    <div class="donation-text">billing Address</div>
+                    <input class="donation-placeholder" type="text" placeholder="Billing Address">   
+                </div>
+            </div>
+            
+            <div class="buttons">
+                <button class="discard_button">Discard</button>
+                <button class="confirm_button">Confirm</button>
+            </div>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

@@ -1,0 +1,15 @@
+height = int(input("Enter the height of the pyramind: "))
+
+for i in range(height):
+    print( 
+        " " * (height - i - 1) +
+        "*" * (i * 2 + 1)
+
+    )
+
+
+for j in range(height - 1, 0, -1):
+    print(
+        " " * (height - j) +
+        "*" * (j * 2 - 1)
+    )

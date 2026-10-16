@@ -1,0 +1,9 @@
+length = int(input("Enter the length of the array: "))
+
+name = []
+
+for i in range(length):
+    name.append(int(input(f"Enter the {i + 1} place: ")))
+
+for j in range(len(name)):
+    print(name[j])

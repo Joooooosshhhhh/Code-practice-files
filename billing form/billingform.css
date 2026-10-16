@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_body {
+    background-image: url(sunrise-with-fog-water-surrounded-by-trees-netherlands.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 680px;
+    width: 700px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: space-evenly;*/
+    background-color:rgba(0, 0, 0, 0.404);
+    backdrop-filter: blur(10px);
+}
+
+.h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(226, 186, 56);
+    width: 500px;
+    padding: 20px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.name_container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 100px;
+    align-items: center;
+}
+
+.name {
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+    width: 100px;
+
+}
+
+.input_name {
+    width: 200px;
+    height: 25px;
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 18px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+}
+
+.phone_number {
+    
+}
+
+.phone {
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.p_number {
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+    width: 270px;
+    height: 25px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 18px;
+}
+
+.donation {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.donation-text {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.donation-placeholder {
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+    width: 570px;
+    height: 25px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 18px;
+}
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discard_button {
+    height: 65px;
+    width: 200px;
+    color: white;
+    background-color: rgb(218, 57, 28);
+    border-style: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 35px;  
+    transition: 0.3s; 
+}
+
+.confirm_button {
+    height: 65px;
+    width: 200px;
+    color: white;
+    background-color: rgb(34, 139, 34);
+    border-style: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;   
+    transition: 0.3s;
+}
+
+.confirm_button:hover {
+    background-color: white;
+    color: rgb(34, 139, 34);
+}
+
+.discard_button:hover {
+    background-color: white;
+    color: rgb(218, 57, 28);
+}
+
+.p_number,
+.donation-placeholder {
+    color: black;
+    padding-left: 20px;
+}

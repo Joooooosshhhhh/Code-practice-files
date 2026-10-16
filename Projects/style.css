@@ -1,0 +1,83 @@
+body {
+   
+   margin: 0;
+   padding: 0; 
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(338596.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.div-gmail-slot {
+    display: flex;
+}
+
+.slot {
+    height: 320px;
+    width: 400px;
+    background-color:rgba(218, 218, 218, 0.788);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    
+}
+
+.gmail-slot {
+    height: 40px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding-left: 30px;
+    transition: 0.10s;
+    
+}
+
+.gmail-slot:hover {
+    border: 1px solid  #DF3908;
+}
+
+.login-button {
+    padding: 10px 30px;
+    background-color: #DF3908;
+    color: white;
+    border: 2px solid #DF3908;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    transition: 0.10s;
+}
+
+.login-button:hover {
+    background-color: white;
+    color: #DF3908; 
+    border: 2px solid  #DF3908;
+}
+.login-button:active {
+    background-color: #EDA421;
+    color: white;
+    border:2px solid white;
+}
+
+.f-pass:hover {
+    color: #DF3908;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

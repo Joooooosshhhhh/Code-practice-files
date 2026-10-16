@@ -1,0 +1,421 @@
+
+
+img {
+    margin: 20px;
+}
+
+.image1 {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.image2 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.image3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.search-bar1 {
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;   
+}
+
+.search-bar2 {
+    font-size: 16px;
+    border-width: 1px;
+    border-style: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    width: 500px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.f-email {
+    margin-top: 100px;
+    font-family: Arial;
+    color: grey;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.f-box {
+    width: 368px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: solid;  
+}
+
+.f-privacy {
+    font-size: 15px;
+   font-family: Arial;}
+
+.agree-button {
+    font-family: Arial;
+    color: white;
+    background-color: rgb(10, 102, 194);
+    border-style: none;
+    width: 375px;
+    font-size: 20px;
+    height: 60px;
+    border-radius: 187.5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.search-bar3,
+.search-bar4 {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.b8-paragraph {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+    margin: 50px 0 50px;
+}
+
+.Yes-button,
+.no-button {
+    vertical-align: middle;
+}
+
+.google-logo {
+    display: block;
+    width: 200px;
+    margin-left: 150px;
+    margin-bottom: 10px; 
+  
+}
+
+.search-bar5 {
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-bottom: 50px;
+}
+
+.First-name1,
+.First-name2 {
+    border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  width: 120px;
+}
+
+.Email {
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    width: 280px;
+}
+
+.sign-up-button {
+    background-color: rgb(47, 127, 231);
+    color: white;
+    border: none;
+    width: 315px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.request_a_ride_uber {
+    font-family: Arial;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.Uber-pickup,
+.Uber-destination {
+    display: block;
+    font-family: Arial;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    width: 500px;
+    padding-left: 20px;
+    background-color: rgb(238, 238, 238);
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+.Request_now_uber{
+background-color: black;
+    color: white;
+    height: 60px;
+    border-style: none;
+    width: 200px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: 0.15s;
+    margin-top: 40px;
+    font-size: 20px;   
+}
+
+.uber_later {
+    font-size: 20px;  
+    width: 200px; 
+    object-position: inherit;
+    height: 60px;
+    border-style: none;
+}
+
+.Uber-fillUp-form,
+.fill-up-form-div,
+.Google-div,
+.yes-no,
+.Search-bar-threefour,
+.AgreeandJoin,
+.threee-images,
+.search-bar-onetwo {
+    display: inline-block;
+    margin:30px 30px 30px;
+}
+
+.red_box {
+    background-color: red;
+    padding: 75px 75px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+}
+
+.green_circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 175px;
+    color: white;
+    border-style: none;
+    background-color: green;
+    text-align: center;
+}
+
+.nine_c_title {
+    font-family: Arial;
+    
+  }
+  
+  .nine_c_card {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    width: 300px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    margin:50px 50px 50px;
+  }
+
+  .nine-d-card {
+    padding: 20px 20px 20px;
+    background-color: rgb(53, 53, 53);
+    display: inline-block;
+    font-family: Arial;
+  }
+
+  .nine-d-header {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .nine-d-content {
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+    width: 400px;
+  }
+
+.nine-e {
+    display: inline-block;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 500px;
+    border-radius: 6px;
+    margin: 50px 50px 50px;
+}
+
+.one-picture {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.nine-e-box {
+    vertical-align: middle;
+    font-size: 18px;
+    width: 300px;
+    border: none;   
+}
+
+.nine-e-tweet-button{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.F-9 {
+    display: inline-block;
+    margin: 50px 50px 50px;
+    box-shadow: 0px 0px 8px #949494;
+    border: none;
+    border-radius: 2px;
+}
+
+.F-9-image {
+    width: 300px;
+    height: 300px;
+    margin: 0 0 0  ;
+    object-fit:cover;
+}
+
+.F-9-name {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+   ;
+}
+
+.F-9-friends {
+    font-family: Arial;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #797979;
+    display: inline-block;
+    vertical-align: 14px;
+}
+
+.F-9-mutual-image {
+    height: 40px;
+    width:  40px;
+    margin-left: 25px; 
+    object-position: center;
+    object-fit: cover;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 0;
+    margin-bottom: 0 ;
+
+}
+
+
+.F-9-add-friend {
+    padding: 20px 30px 20px;
+    font-size: 17px ;
+    font-family:Arial ;
+    margin: 15px 20px 15px;
+    color: white;
+    background-color: rgb(21, 111, 230);
+    border-style: none;
+    border-radius: 8px;
+}
+
+.F-9-2 {
+    display: inline-block;
+    margin: 50px 20px 50px;
+    box-shadow: 0px 0px 8px #949494;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.h9-div {
+    text-align: center;
+}
+
+.search-bar5-h9 {
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+    
+}
+
+.h9-google-button,
+.h9-feelin-lucky {
+    font-size: 20px;  
+    width: 200px; 
+    object-position: inherit;
+    height: 60px;
+    border-style: none;
+    margin: 0 25px 0;
+    
+}
+
+.f-9-mutual-friends-image {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+
+
+

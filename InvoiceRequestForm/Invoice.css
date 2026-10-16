@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    height: 700px;
+    width: 550px;
+    align-items: center;
+    padding-left: 40px;
+    background-color: rgb(255, 234, 209);
+    border-radius: 10px;
+}
+
+h1 {
+    color: rgb(70, 111, 245);
+    font-weight: normal;
+    margin-left: 18%;
+}
+.name-section {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.nameTextbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.namebox {
+    height: 35px;
+    width: 200px;
+    border: none 0px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    font-size: 15px;
+    padding: 3px 15px;
+    margin-top: 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.companybox {
+    height: 35px;
+    width: 200px;
+    border: none 0px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    font-size: 15px;
+    padding: 3px 15px;
+    margin-top: 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.EmailandPhone {
+    display: flex;
+    flex-direction: row;
+}
+
+.PhoneSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.Streetbox {
+    height: 35px;
+    width: 442px;
+    border: none 0px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    font-size: 15px;
+    padding: 3px 15px;
+    margin-top: 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom:10px ;
+}
+
+.Streetline2box {
+    height: 35px;
+    width: 442px;
+    border: none 0px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    font-size: 15px;
+    padding: 3px 15px;
+    margin-top: 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.City-Region-box {
+    height: 35px;
+    width: 200px;
+    border: none 0px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    font-size: 15px;
+    padding: 3px 15px;
+    margin-top: 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    border-style: none;
+    border-radius: 10px;
+    margin-left: 30%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-size: larger;
+    transition: 0.3s;
+
+}
+
+button:hover {
+    height: 50px;
+    width: 200px;
+    border-style: none;
+    border-radius: 10px;
+    margin-left: 30%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-size: larger;
+
+}
+
+

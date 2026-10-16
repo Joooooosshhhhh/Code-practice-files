@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    height: 50px;
+    width: 100%;
+    font-family: Roboto;
+    color: #fff;
+    text-decoration: none;
+    font-size: .8225rem;
+    font-weight: 300;
+    padding: 0.50rem;
+    position: relative;
+    overflow: visible;
+    outline: 0;
+    background-color: #ee4d2d;
+    font-weight: 550;
+}
+
+.header-left-side {
+    display: flex;
+    
+
+}
+
+.header-right-side {
+    display: flex;
+}
+
+.header-link {
+    margin-right: 10px;
+}

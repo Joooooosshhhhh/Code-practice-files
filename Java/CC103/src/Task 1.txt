@@ -1,0 +1,41 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+       int [][] grades = {
+                        {90, 91, 83, 90},
+                        {75, 77, 78, 80},
+                        {90, 91, 92, 93}
+       };
+       
+       int sum = 0; 
+       double avg;
+       double highest = 0;
+       int topstudent = 0;
+       
+       for (int i = 0; i < grades.length; i++){
+           sum = 0;
+           System.out.print("Student " + (i + 1) + ": ");
+           
+           for (int j = 0; j < grades[i].length; j++){
+               System.out.print(grades[i][j] + " ");
+               sum += grades[i][j];
+           }
+           
+           avg = (double) sum / grades[i].length;
+           
+           if(avg > highest){
+               highest = avg;
+               topstudent = i;
+           }
+           
+           System.out.print(" | ");
+           System.out.print(sum);
+           System.out.print(" | ");
+           System.out.print(avg);
+           System.out.println();
+       }
+          System.out.println("Top Student: " + (topstudent + 1));
+    }
+}

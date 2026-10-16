@@ -1,0 +1,153 @@
+body {
+    padding: 20px;
+}
+
+.yt-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    row-gap: 30px;
+}
+@media (max-width: 1759px) {
+    .yt-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1381px) {
+    .yt-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:920px) {
+    .yt-grid {
+        display: grid;
+        grid-template-columns: 420px
+    }
+}
+
+.youtube-thumbnail {
+   display: inline-block;
+}
+.youtube-slot {
+    background-color: rgb(205, 241, 241);
+    width: 420px;
+    height: 355px;
+}
+
+.thumbnail {
+    width: 100%;
+    
+    object-fit: cover;
+    border-radius: 20px;   
+}
+
+.profilepic-and-description {
+    display: flex;
+ 
+}
+.profile-img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+   cursor: pointer;
+    margin-right: 6px;
+
+   
+}
+
+.yt-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.yt-info {
+    color: rgb(163, 163, 163);
+    margin-top: 5px;
+}
+
+.profilepic-and-description {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    margin-top: 10px;
+}
+
+.channel-picture {
+  position: relative;
+  display: inline-block;
+  
+}
+.channel-img .yt-tooltip {
+    position: absolute;
+    background-color: white;
+    box-shadow:    1px 1px 8px 1px #888888;
+    border-radius: 5px;
+    display: flex;
+    grid-template-columns: 60px 1fr;
+    width: 200px;
+    bottom: -40px;
+    height: 65px;
+    padding: 5px 10px;
+    margin-top: 4px;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.15s;
+}
+
+.channel-img:hover .yt-tooltip{
+opacity:1;
+}
+
+
+.profile-img-tooltip {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+    
+}
+
+.tooltip-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yt-channel-name {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+
+.tooltip-info {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.yt-subscriber {
+    color: #888888;
+}
+
+
+
+
+
+
+.grid1 {
+    background-color: rgb(214, 210, 205);
+    width: 420px;
+   
+}
+
+.grid2 {
+    background-color: rgb(167, 149, 127);
+    width: 420px;
+}
